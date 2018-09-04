@@ -5,4 +5,4 @@ message: Producer configuration server is alive!
 
 managment:
   security:
-    enabled:false
+    enabled: false
