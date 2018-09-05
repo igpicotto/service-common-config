@@ -2,3 +2,9 @@ server:
   port: ${PORT:8890}
 
 message: Producer configuration server is alive!
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
