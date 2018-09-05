@@ -3,8 +3,3 @@ server:
 
 message: Producer configuration server is alive!
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
