@@ -5,3 +5,4 @@ management:
     web:
       exposure:
         include: refresh
+        include: health
