@@ -3,6 +3,4 @@ global-message: Configuración del Servidor Levantada! v38.
 management:
   endpoints:
     web:
-      exposure:
-        include: refresh
-        include: health
+      exposure: *
