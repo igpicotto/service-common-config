@@ -1,4 +1,9 @@
 #server:
 #  port: ${PORT:8889}
 
+spring: 
+  cloud:
+    config:
+      uri: https://localhost:8888 
+      
 message: Consumer configuration server is alive! v3
