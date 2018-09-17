@@ -6,6 +6,11 @@ spring:
   cloud:
     config:
       uri: https://localhost:8888 
+
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:8010/eureka/
       
 message: Producer configuration server is alive!
 
